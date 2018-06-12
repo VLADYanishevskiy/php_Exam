@@ -43,3 +43,7 @@ $("#triangle-right").mouseup(function(){
 $(".CategorySPN").mouseover(function(){
    $(".CategorySPN").css("cursor","pointer") ;
 });
+
+$(".ShopCategories").mouseover(function(){
+   $(".ShopCategories").css("cursor","pointer") ;
+});
