@@ -25,3 +25,21 @@ $("#triangle-right").click(function(){
     $("span.LangType").text("English");
     }
 });
+
+$("#triangle-left").mousedown(function(){
+    $("#triangle-left").css('border-right','10px solid #cdcdcd');
+});
+$("#triangle-right").mousedown(function(){
+    $("#triangle-right").css('border-left','10px solid #cdcdcd');
+});
+
+$("#triangle-left").mouseup(function(){
+    $("#triangle-left").css('border-right','10px solid #656565');
+});
+$("#triangle-right").mouseup(function(){
+    $("#triangle-right").css('border-left','10px solid #656565');
+});
+
+$(".CategorySPN").mouseover(function(){
+   $(".CategorySPN").css("cursor","pointer") ;
+});

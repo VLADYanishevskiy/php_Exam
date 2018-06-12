@@ -26,7 +26,7 @@ body{
     
 }
 
-#LanguageSP{
+.LanguageSP{
     color: #bef2ff;
 }
 
@@ -43,7 +43,7 @@ display: inline-block;
 	height: 0;
     display: inline-block;
 	border-top: 5px solid transparent;
-	border-right: 10px solid red;
+	border-right: 10px solid #656565;
 	border-bottom: 5px solid transparent;
 }
 
@@ -52,7 +52,7 @@ display: inline-block;
 	height: 0;
     display: inline-block;
 	border-top: 5px solid transparent;
-	border-left: 10px solid red;
+	border-left: 10px solid #656565;
 	border-bottom: 5px solid transparent;
 }
 
@@ -61,3 +61,46 @@ display: inline-block;
     display: inline-block;
     text-align: center;
 }
+
+#currencyType{
+    width: 40px;
+    color: white;
+}
+
+
+.CategorySPN{
+    display: inline-block;
+    float: right;
+    color: white;
+    font-size: 13pt;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: 0.25s;
+}
+.CategorySPN:hover{
+    color: white;
+    background-color: #656565;
+    transition: 0.5s;
+}
+
+.CategorySPN:active{
+    background-color: #454545;
+    color: whitesmoke;
+    transition: 0.2s;
+    font-size: 12pt;
+}
+
+
+.CategorySlash{
+    color: white;
+    display: inline-block;
+    float:right;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+#Delimiter{
+    margin-left: 398px;
+    float: right;
+}
+
