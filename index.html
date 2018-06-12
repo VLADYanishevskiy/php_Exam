@@ -5,7 +5,7 @@
     <title>LEO SHOP</title>
     <link rel="stylesheet" href="style/style.css"/>
     <link rel="stylesheet" href="style/fonts.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     
     </head>
@@ -26,17 +26,38 @@
                 <span id="currencyType" >USD</span>
                 <div id="triangle-right"></div>
                 
-                <div class="CategorySPN">Account</div>
-                <div class="CategorySlash">|</div>
-                <div class="CategorySPN">Wishlist</div>
-                <div class="CategorySlash">|</div>  
-                <div class="CategorySPN">Checkout</div>  
-                <div class="CategorySlash">|</div>         
-                <div class="CategorySPN">Log in</div>            
-                <div class="CategorySlash">|</div>
-                <div class="CategorySPN">Sign in</div>
+                <div id="Delimiter"></div>
                 
+                <button class="CategorySPN">Account</button>
+                <div class="CategorySlash">|</div>
+                <button class="CategorySPN">Wishlist</button>
+                <div class="CategorySlash">|</div>  
+                <button class="CategorySPN">Checkout</button>  
+                <div class="CategorySlash">|</div>         
+                <button class="CategorySPN">Log in</button>            
+                <div class="CategorySlash">|</div>
+                <button class="CategorySPN">Sign in</button>  
             </div>
+              
+            
+          </div>
+          
+          <div id="SearchAndCart">
+              <span id="LeoSHOP">LEO SHOP</span>
+              <button class="ShopCategories">HOME</button>
+              <button class="ShopCategories">WOMEN</button>
+              <button class="ShopCategories">MEN</button>
+              <button class="ShopCategories">OTHER</button>
+              <button class="ShopCategories">PURCHASE</button>
+              
+              <form id="searchForm">
+                <input id="FindField" type="search" name="q" placeholder="Search"> 
+                    <input id="btnFind" type="submit" value="FIND">
+              </form>
+              
+              
+              <button class="ProdCart" id="ProductsQuantCart">(0)</button>
+              <button class="ProdCart" id="Cartlet">CART</button>
           </div>
         
         
